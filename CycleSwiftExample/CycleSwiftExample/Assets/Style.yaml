@@ -1,0 +1,36 @@
+
+variables:
+  h1: Arial:title1
+  primaryColor: 42a5f5
+  textColor: 607d8b
+styles:
+  UIView.view:
+    backgroundColor: white
+  UIButton.button:
+    backgroundColor: EEE
+    cornerRadius: 6
+    contentEdgeInsets: 8,6
+    borderColor: $primaryColor
+    titleColor: $primaryColor
+    borderWidth: 1
+  UIButton.primary:
+    font: title 1
+    titleColor: white
+    cornerRadius: 6
+    backgroundColor:  $primaryColor
+    contentEdgeInsets: [1,15]
+    contentEdgeInsets:highlighted: [22,12]
+  UILabel.label:
+    textColor: $textColor
+    textAlignment: center
+  UILabel.active:
+    textColor: $primaryColor
+    textAlignment: left
+  UIButton.tabSelected:
+    font: body
+    titleColor: white
+    backgroundColor:  $primaryColor
+  UIButton.tab:
+    font: body
+    titleColor: 666
+    backgroundColor:  EEE

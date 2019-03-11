@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "CycleSwift"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "An implement Cycle.js"
   spec.description  = "An implement Cycle.js with Swift, RxSwif, Stylist"
 

@@ -8,21 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		23AF7608919907A4173B24D3 /* Pods_CycleSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE5A507F7C8D92A7D0B8C0A /* Pods_CycleSwiftExample.framework */; };
+		5722D17F22366B2100E1944A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D16322366B1F00E1944A /* User.swift */; };
+		5722D18022366B2100E1944A /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D16422366B1F00E1944A /* Repo.swift */; };
+		5722D18122366B2100E1944A /* Style.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 5722D16622366B2000E1944A /* Style.yaml */; };
+		5722D18222366B2100E1944A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5722D16722366B2000E1944A /* Assets.xcassets */; };
+		5722D18322366B2100E1944A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5722D16822366B2000E1944A /* LaunchScreen.storyboard */; };
+		5722D18422366B2100E1944A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5722D16A22366B2000E1944A /* Main.storyboard */; };
+		5722D18522366B2100E1944A /* GithubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5722D16D22366B2000E1944A /* GithubCell.xib */; };
+		5722D18622366B2100E1944A /* GithubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D16E22366B2000E1944A /* GithubCell.swift */; };
+		5722D18722366B2100E1944A /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D16F22366B2000E1944A /* TodoCell.swift */; };
+		5722D18822366B2100E1944A /* GithubTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17022366B2000E1944A /* GithubTextCell.swift */; };
+		5722D18922366B2100E1944A /* GithubSearchCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17222366B2100E1944A /* GithubSearchCycle.swift */; };
+		5722D18A22366B2100E1944A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17322366B2100E1944A /* ViewController.swift */; };
+		5722D18B22366B2100E1944A /* GithubSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17422366B2100E1944A /* GithubSearchViewController.swift */; };
+		5722D18C22366B2100E1944A /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17522366B2100E1944A /* TodoViewController.swift */; };
+		5722D18D22366B2100E1944A /* TodoCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17622366B2100E1944A /* TodoCycle.swift */; };
+		5722D18E22366B2100E1944A /* ComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17722366B2100E1944A /* ComponentViewController.swift */; };
+		5722D18F22366B2100E1944A /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17822366B2100E1944A /* CounterViewController.swift */; };
+		5722D19022366B2100E1944A /* CounterCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17922366B2100E1944A /* CounterCycle.swift */; };
+		5722D19122366B2100E1944A /* Fps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D17B22366B2100E1944A /* Fps.swift */; };
 		57C65B5922365ADE006BF302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C65B5822365ADE006BF302 /* AppDelegate.swift */; };
-		57C65B5B22365ADE006BF302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C65B5A22365ADE006BF302 /* ViewController.swift */; };
-		57C65B5E22365ADE006BF302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C65B5C22365ADE006BF302 /* Main.storyboard */; };
-		57C65B6022365ADF006BF302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C65B5F22365ADF006BF302 /* Assets.xcassets */; };
-		57C65B6322365ADF006BF302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C65B6122365ADF006BF302 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C1942A9164A84FCF82E939D /* Pods-CycleSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleSwiftExample.release.xcconfig"; path = "Target Support Files/Pods-CycleSwiftExample/Pods-CycleSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		5722D16322366B1F00E1944A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5722D16422366B1F00E1944A /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		5722D16622366B2000E1944A /* Style.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Style.yaml; sourceTree = "<group>"; };
+		5722D16722366B2000E1944A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5722D16922366B2000E1944A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5722D16B22366B2000E1944A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5722D16D22366B2000E1944A /* GithubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubCell.xib; sourceTree = "<group>"; };
+		5722D16E22366B2000E1944A /* GithubCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubCell.swift; sourceTree = "<group>"; };
+		5722D16F22366B2000E1944A /* TodoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		5722D17022366B2000E1944A /* GithubTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubTextCell.swift; sourceTree = "<group>"; };
+		5722D17222366B2100E1944A /* GithubSearchCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSearchCycle.swift; sourceTree = "<group>"; };
+		5722D17322366B2100E1944A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5722D17422366B2100E1944A /* GithubSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSearchViewController.swift; sourceTree = "<group>"; };
+		5722D17522366B2100E1944A /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		5722D17622366B2100E1944A /* TodoCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoCycle.swift; sourceTree = "<group>"; };
+		5722D17722366B2100E1944A /* ComponentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentViewController.swift; sourceTree = "<group>"; };
+		5722D17822366B2100E1944A /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		5722D17922366B2100E1944A /* CounterCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterCycle.swift; sourceTree = "<group>"; };
+		5722D17B22366B2100E1944A /* Fps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fps.swift; sourceTree = "<group>"; };
 		57C65B5522365ADE006BF302 /* CycleSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C65B5822365ADE006BF302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57C65B5A22365ADE006BF302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		57C65B5D22365ADE006BF302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		57C65B5F22365ADF006BF302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		57C65B6222365ADF006BF302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57C65B6422365ADF006BF302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		680C3027F00ADBD29A9F1872 /* Pods-CycleSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleSwiftExample.debug.xcconfig"; path = "Target Support Files/Pods-CycleSwiftExample/Pods-CycleSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE5A507F7C8D92A7D0B8C0A /* Pods_CycleSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CycleSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +70,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5722D16222366B1F00E1944A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5722D16322366B1F00E1944A /* User.swift */,
+				5722D16422366B1F00E1944A /* Repo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5722D16522366B2000E1944A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5722D16622366B2000E1944A /* Style.yaml */,
+				5722D16722366B2000E1944A /* Assets.xcassets */,
+				5722D16822366B2000E1944A /* LaunchScreen.storyboard */,
+				5722D16A22366B2000E1944A /* Main.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5722D16C22366B2000E1944A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5722D16D22366B2000E1944A /* GithubCell.xib */,
+				5722D16E22366B2000E1944A /* GithubCell.swift */,
+				5722D16F22366B2000E1944A /* TodoCell.swift */,
+				5722D17022366B2000E1944A /* GithubTextCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5722D17122366B2100E1944A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5722D17222366B2100E1944A /* GithubSearchCycle.swift */,
+				5722D17322366B2100E1944A /* ViewController.swift */,
+				5722D17422366B2100E1944A /* GithubSearchViewController.swift */,
+				5722D17522366B2100E1944A /* TodoViewController.swift */,
+				5722D17622366B2100E1944A /* TodoCycle.swift */,
+				5722D17722366B2100E1944A /* ComponentViewController.swift */,
+				5722D17822366B2100E1944A /* CounterViewController.swift */,
+				5722D17922366B2100E1944A /* CounterCycle.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5722D17A22366B2100E1944A /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				5722D17B22366B2100E1944A /* Fps.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		5722D17E22366B2100E1944A /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base.lproj;
+			path = ../../../../../../../Volumes/FF/CycleSwift/CycleSwift/Base.lproj;
+			sourceTree = "<group>";
+		};
 		57C65B4C22365ADC006BF302 = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +153,13 @@
 		57C65B5722365ADE006BF302 /* CycleSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				5722D16522366B2000E1944A /* Assets */,
+				5722D17E22366B2100E1944A /* Base.lproj */,
+				5722D16C22366B2000E1944A /* Cells */,
+				5722D16222366B1F00E1944A /* Models */,
+				5722D17122366B2100E1944A /* Scenes */,
+				5722D17A22366B2100E1944A /* Share */,
 				57C65B5822365ADE006BF302 /* AppDelegate.swift */,
-				57C65B5A22365ADE006BF302 /* ViewController.swift */,
-				57C65B5C22365ADE006BF302 /* Main.storyboard */,
-				57C65B5F22365ADF006BF302 /* Assets.xcassets */,
-				57C65B6122365ADF006BF302 /* LaunchScreen.storyboard */,
 				57C65B6422365ADF006BF302 /* Info.plist */,
 			);
 			path = CycleSwiftExample;
@@ -85,7 +179,6 @@
 				680C3027F00ADBD29A9F1872 /* Pods-CycleSwiftExample.debug.xcconfig */,
 				2C1942A9164A84FCF82E939D /* Pods-CycleSwiftExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,9 +242,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C65B6322365ADF006BF302 /* LaunchScreen.storyboard in Resources */,
-				57C65B6022365ADF006BF302 /* Assets.xcassets in Resources */,
-				57C65B5E22365ADE006BF302 /* Main.storyboard in Resources */,
+				5722D18422366B2100E1944A /* Main.storyboard in Resources */,
+				5722D18122366B2100E1944A /* Style.yaml in Resources */,
+				5722D18522366B2100E1944A /* GithubCell.xib in Resources */,
+				5722D18322366B2100E1944A /* LaunchScreen.storyboard in Resources */,
+				5722D18222366B2100E1944A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +265,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CycleSwift/CycleSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/KZFileWatchers/KZFileWatchers.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -183,6 +280,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CycleSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KZFileWatchers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -223,28 +322,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C65B5B22365ADE006BF302 /* ViewController.swift in Sources */,
+				5722D18B22366B2100E1944A /* GithubSearchViewController.swift in Sources */,
+				5722D18722366B2100E1944A /* TodoCell.swift in Sources */,
+				5722D18622366B2100E1944A /* GithubCell.swift in Sources */,
+				5722D18A22366B2100E1944A /* ViewController.swift in Sources */,
+				5722D18922366B2100E1944A /* GithubSearchCycle.swift in Sources */,
+				5722D19022366B2100E1944A /* CounterCycle.swift in Sources */,
+				5722D18822366B2100E1944A /* GithubTextCell.swift in Sources */,
 				57C65B5922365ADE006BF302 /* AppDelegate.swift in Sources */,
+				5722D18D22366B2100E1944A /* TodoCycle.swift in Sources */,
+				5722D18F22366B2100E1944A /* CounterViewController.swift in Sources */,
+				5722D17F22366B2100E1944A /* User.swift in Sources */,
+				5722D18E22366B2100E1944A /* ComponentViewController.swift in Sources */,
+				5722D19122366B2100E1944A /* Fps.swift in Sources */,
+				5722D18C22366B2100E1944A /* TodoViewController.swift in Sources */,
+				5722D18022366B2100E1944A /* Repo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		57C65B5C22365ADE006BF302 /* Main.storyboard */ = {
+		5722D16822366B2000E1944A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				57C65B5D22365ADE006BF302 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		57C65B6122365ADF006BF302 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				57C65B6222365ADF006BF302 /* Base */,
+				5722D16922366B2000E1944A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5722D16A22366B2000E1944A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5722D16B22366B2000E1944A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -378,6 +490,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D TRACE_RESOURCES";
 				PRODUCT_BUNDLE_IDENTIFIER = sixcam.com.CycleSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

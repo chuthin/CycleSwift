@@ -41,35 +41,60 @@ public enum SourceEmpty : Sources {
 
 public struct DomSource:Sources {
     public var reactives:[String:Any] = [:]
+    public init(_ reactives:[String:Any] = [:]){
+        self.reactives = reactives
+    }
 }
 
 public struct NetworkSource:Sources {
     public var response:Response
+    public init(_ response:Response) {
+        self.response = response
+    }
 }
 
 public struct StateSource<S>:Sources {
     public var value:S
+    public init(_ value:S){
+        self.value = value
+    }
 }
 
 public struct StateSink<S>:Sinks {
     public var value:S
+    public init(_ value:S){
+        self.value = value
+    }
 }
 public typealias Store<S> = (key:String,value:S)
 public struct StoreSink<S>:Sinks {
     public var store:Store<S>
+    public init(_ store:Store<S>){
+        self.store = store
+    }
 }
 
 
 public struct NetworkSink:Sinks {
     public var request:Request?
+    public init(_ request:Request?){
+        self.request = request
+    }
 }
 
 public struct DomSink:Sinks {
     public var view:VTView
+    public init(_ view:VTView)
+    {
+        self.view = view
+    }
 }
 
 public struct LogSink:Sinks {
     public var message:Any?
+    public init(_ message:Any?){
+        self.message = message
+    }
 }
 
 extension SharedSequenceConvertibleType where E == Sinks {
@@ -144,7 +169,7 @@ extension Optional where Wrapped == [String:Any] {
 }
 
 
-public class CycleViewController<C:Cycle>:UIViewController{
+open class CycleViewController<C:Cycle>:UIViewController{
     let disposeBag = DisposeBag()
      let fakeSink:BehaviorSubject<Sinks> = BehaviorSubject(value: SinkEmpty.value)
     
@@ -218,7 +243,7 @@ public class CycleViewController<C:Cycle>:UIViewController{
             }
             .observeOn(MainScheduler.asyncInstance)
             .subscribe(onNext:{
-                sources.onNext(NetworkSource(response: $0))
+                sources.onNext(NetworkSource($0))
             })
             .disposed(by: disposeBag)
     }
@@ -232,7 +257,7 @@ public class CycleViewController<C:Cycle>:UIViewController{
                     let reactives = self.renderRootView(view)
                     if(!isRendered)
                     {
-                        sources.onNext(DomSource(reactives: reactives))
+                        sources.onNext(DomSource(reactives))
                     }
                     isRendered = true
                 }
@@ -247,7 +272,7 @@ public class CycleViewController<C:Cycle>:UIViewController{
             .asObservable()
             .observeOn(MainScheduler.asyncInstance )
             .subscribe(onNext:{ state in
-                sources.onNext(StateSource(value: state))
+                sources.onNext(StateSource(state))
             })
             .disposed(by: disposeBag)
     }

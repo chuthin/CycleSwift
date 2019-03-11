@@ -146,12 +146,10 @@ public static func intent(_ sources: Driver<Sources>) -> Driver<Action> {
             return result
         case let .Delete(index):
             var result = state
-            if(result.index == 2)
-            {
+            if(result.index == 2){
                 result.completeds.remove(at: index)
             }
-            else
-            {
+            else{
                 result.completeds.remove(at:index - result.actives.count)
             }
             return result

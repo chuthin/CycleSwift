@@ -91,4 +91,4 @@ $ pod install
 }
 
 ```
-
+<img src="https://github.com/chuthin/CycleSwift/blob/master/CycleSwiftExample/CycleSwiftExample/Assets/GIF-190311_213248.gif" width="320px" />

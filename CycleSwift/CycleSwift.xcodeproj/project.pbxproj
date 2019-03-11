@@ -7,15 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5722D12D223660E600E1944A /* VTLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D118223660E000E1944A /* VTLabel.swift */; };
+		5722D12E223660E600E1944A /* VTStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D119223660E000E1944A /* VTStackView.swift */; };
+		5722D12F223660E600E1944A /* VTCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D11A223660E000E1944A /* VTCollectionView.swift */; };
+		5722D130223660E600E1944A /* AssociatedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D11B223660E000E1944A /* AssociatedValue.swift */; };
+		5722D131223660E600E1944A /* CellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D11C223660E100E1944A /* CellDataSource.swift */; };
+		5722D132223660E600E1944A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D11D223660E100E1944A /* Network.swift */; };
+		5722D133223660E600E1944A /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D11E223660E200E1944A /* Identifiable.swift */; };
+		5722D134223660E600E1944A /* CycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D11F223660E200E1944A /* CycleViewController.swift */; };
+		5722D135223660E600E1944A /* VTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D120223660E200E1944A /* VTCell.swift */; };
+		5722D136223660E600E1944A /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D121223660E300E1944A /* Initializable.swift */; };
+		5722D137223660E600E1944A /* VTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D122223660E300E1944A /* VTButton.swift */; };
+		5722D138223660E600E1944A /* VTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D123223660E300E1944A /* VTImageView.swift */; };
+		5722D139223660E600E1944A /* VTScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D124223660E300E1944A /* VTScrollView.swift */; };
+		5722D13A223660E600E1944A /* VTSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D125223660E400E1944A /* VTSwitch.swift */; };
+		5722D13B223660E600E1944A /* VTTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D126223660E400E1944A /* VTTableView.swift */; };
+		5722D13C223660E600E1944A /* VTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D127223660E400E1944A /* VTTextField.swift */; };
+		5722D13D223660E600E1944A /* VTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D128223660E400E1944A /* VTView.swift */; };
+		5722D13E223660E600E1944A /* VTSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D129223660E500E1944A /* VTSlider.swift */; };
+		5722D13F223660E600E1944A /* VirtualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D12A223660E500E1944A /* VirtualView.swift */; };
+		5722D140223660E600E1944A /* VTActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D12B223660E600E1944A /* VTActivityIndicatorView.swift */; };
+		5722D141223660E600E1944A /* UITableView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722D12C223660E600E1944A /* UITableView+Rx.swift */; };
 		57C65B4422365322006BF302 /* CycleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C65B4222365322006BF302 /* CycleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57C65B4B223653A6006BF302 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C65B4A223653A6006BF302 /* Service.swift */; };
+		A7AC5DF9F474E56FBAE0C620 /* Pods_CycleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DC0E829F431E182CF2C1E6 /* Pods_CycleSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		199D3064D97F750D9757BDE2 /* Pods-CycleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleSwift.release.xcconfig"; path = "Target Support Files/Pods-CycleSwift/Pods-CycleSwift.release.xcconfig"; sourceTree = "<group>"; };
+		5722D118223660E000E1944A /* VTLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTLabel.swift; sourceTree = "<group>"; };
+		5722D119223660E000E1944A /* VTStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTStackView.swift; sourceTree = "<group>"; };
+		5722D11A223660E000E1944A /* VTCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTCollectionView.swift; sourceTree = "<group>"; };
+		5722D11B223660E000E1944A /* AssociatedValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedValue.swift; sourceTree = "<group>"; };
+		5722D11C223660E100E1944A /* CellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDataSource.swift; sourceTree = "<group>"; };
+		5722D11D223660E100E1944A /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		5722D11E223660E200E1944A /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		5722D11F223660E200E1944A /* CycleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleViewController.swift; sourceTree = "<group>"; };
+		5722D120223660E200E1944A /* VTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTCell.swift; sourceTree = "<group>"; };
+		5722D121223660E300E1944A /* Initializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initializable.swift; sourceTree = "<group>"; };
+		5722D122223660E300E1944A /* VTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTButton.swift; sourceTree = "<group>"; };
+		5722D123223660E300E1944A /* VTImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTImageView.swift; sourceTree = "<group>"; };
+		5722D124223660E300E1944A /* VTScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTScrollView.swift; sourceTree = "<group>"; };
+		5722D125223660E400E1944A /* VTSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTSwitch.swift; sourceTree = "<group>"; };
+		5722D126223660E400E1944A /* VTTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTTableView.swift; sourceTree = "<group>"; };
+		5722D127223660E400E1944A /* VTTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTTextField.swift; sourceTree = "<group>"; };
+		5722D128223660E400E1944A /* VTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTView.swift; sourceTree = "<group>"; };
+		5722D129223660E500E1944A /* VTSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTSlider.swift; sourceTree = "<group>"; };
+		5722D12A223660E500E1944A /* VirtualView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualView.swift; sourceTree = "<group>"; };
+		5722D12B223660E600E1944A /* VTActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTActivityIndicatorView.swift; sourceTree = "<group>"; };
+		5722D12C223660E600E1944A /* UITableView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Rx.swift"; sourceTree = "<group>"; };
 		57C65B3F2236531C006BF302 /* CycleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CycleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C65B4222365322006BF302 /* CycleSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleSwift.h; sourceTree = "<group>"; };
 		57C65B4322365322006BF302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57C65B4A223653A6006BF302 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		91DC0E829F431E182CF2C1E6 /* Pods_CycleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CycleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5886D7AA0219DE04FB87431 /* Pods-CycleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleSwift.debug.xcconfig"; path = "Target Support Files/Pods-CycleSwift/Pods-CycleSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AC5DF9F474E56FBAE0C620 /* Pods_CycleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34F5A17D08B977113A3CD177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5886D7AA0219DE04FB87431 /* Pods-CycleSwift.debug.xcconfig */,
+				199D3064D97F750D9757BDE2 /* Pods-CycleSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		57C65B352236531C006BF302 = {
 			isa = PBXGroup;
 			children = (
 				57C65B412236531C006BF302 /* CycleSwift */,
 				57C65B402236531C006BF302 /* Products */,
+				34F5A17D08B977113A3CD177 /* Pods */,
+				C8E0B58A776879F200C38F56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,11 +104,39 @@
 		57C65B412236531C006BF302 /* CycleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				5722D11B223660E000E1944A /* AssociatedValue.swift */,
+				5722D11C223660E100E1944A /* CellDataSource.swift */,
+				5722D11F223660E200E1944A /* CycleViewController.swift */,
+				5722D11E223660E200E1944A /* Identifiable.swift */,
+				5722D121223660E300E1944A /* Initializable.swift */,
+				5722D11D223660E100E1944A /* Network.swift */,
+				5722D12C223660E600E1944A /* UITableView+Rx.swift */,
+				5722D12A223660E500E1944A /* VirtualView.swift */,
+				5722D12B223660E600E1944A /* VTActivityIndicatorView.swift */,
+				5722D122223660E300E1944A /* VTButton.swift */,
+				5722D120223660E200E1944A /* VTCell.swift */,
+				5722D11A223660E000E1944A /* VTCollectionView.swift */,
+				5722D123223660E300E1944A /* VTImageView.swift */,
+				5722D118223660E000E1944A /* VTLabel.swift */,
+				5722D124223660E300E1944A /* VTScrollView.swift */,
+				5722D129223660E500E1944A /* VTSlider.swift */,
+				5722D119223660E000E1944A /* VTStackView.swift */,
+				5722D125223660E400E1944A /* VTSwitch.swift */,
+				5722D126223660E400E1944A /* VTTableView.swift */,
+				5722D127223660E400E1944A /* VTTextField.swift */,
+				5722D128223660E400E1944A /* VTView.swift */,
 				57C65B4222365322006BF302 /* CycleSwift.h */,
 				57C65B4322365322006BF302 /* Info.plist */,
-				57C65B4A223653A6006BF302 /* Service.swift */,
 			);
 			path = CycleSwift;
+			sourceTree = "<group>";
+		};
+		C8E0B58A776879F200C38F56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DC0E829F431E182CF2C1E6 /* Pods_CycleSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57C65B4722365322006BF302 /* Build configuration list for PBXNativeTarget "CycleSwift" */;
 			buildPhases = (
+				C11155304F84D5765DD16667 /* [CP] Check Pods Manifest.lock */,
 				57C65B3A2236531C006BF302 /* Headers */,
 				57C65B3B2236531C006BF302 /* Sources */,
 				57C65B3C2236531C006BF302 /* Frameworks */,
@@ -129,12 +214,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C11155304F84D5765DD16667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CycleSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57C65B3B2236531C006BF302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C65B4B223653A6006BF302 /* Service.swift in Sources */,
+				5722D134223660E600E1944A /* CycleViewController.swift in Sources */,
+				5722D140223660E600E1944A /* VTActivityIndicatorView.swift in Sources */,
+				5722D130223660E600E1944A /* AssociatedValue.swift in Sources */,
+				5722D13F223660E600E1944A /* VirtualView.swift in Sources */,
+				5722D12D223660E600E1944A /* VTLabel.swift in Sources */,
+				5722D135223660E600E1944A /* VTCell.swift in Sources */,
+				5722D131223660E600E1944A /* CellDataSource.swift in Sources */,
+				5722D13E223660E600E1944A /* VTSlider.swift in Sources */,
+				5722D13A223660E600E1944A /* VTSwitch.swift in Sources */,
+				5722D12F223660E600E1944A /* VTCollectionView.swift in Sources */,
+				5722D13D223660E600E1944A /* VTView.swift in Sources */,
+				5722D133223660E600E1944A /* Identifiable.swift in Sources */,
+				5722D141223660E600E1944A /* UITableView+Rx.swift in Sources */,
+				5722D13C223660E600E1944A /* VTTextField.swift in Sources */,
+				5722D13B223660E600E1944A /* VTTableView.swift in Sources */,
+				5722D132223660E600E1944A /* Network.swift in Sources */,
+				5722D139223660E600E1944A /* VTScrollView.swift in Sources */,
+				5722D12E223660E600E1944A /* VTStackView.swift in Sources */,
+				5722D136223660E600E1944A /* Initializable.swift in Sources */,
+				5722D137223660E600E1944A /* VTButton.swift in Sources */,
+				5722D138223660E600E1944A /* VTImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +395,7 @@
 		};
 		57C65B4822365322006BF302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5886D7AA0219DE04FB87431 /* Pods-CycleSwift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -292,6 +423,7 @@
 		};
 		57C65B4922365322006BF302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199D3064D97F750D9757BDE2 /* Pods-CycleSwift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

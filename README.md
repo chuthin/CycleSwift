@@ -2,8 +2,27 @@
 An implement Cycle.js. https://cycle.js.org with [RxSwift](https://github.com/ReactiveX/RxSwift), [VFL](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html) and [Stylist](https://github.com/yonaskolb/Stylist)
 
 Note!: VFL SafeArea "V:|-[***]-|"  "H:|-[***]-|"
-# Install
+# Installation
+
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate RxFeedback into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```bash
 pod 'CycleSwift'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
 # Examples
 ## Counter
 

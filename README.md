@@ -26,7 +26,7 @@ $ pod install
 # Examples
 ## Counter
 
-[Complete example](https://github.com/chuthin/CycleSwift/blob/master/CycleSwift/CounterCycle.swift)
+[Complete example](https://github.com/chuthin/CycleSwift/blob/master/CycleSwiftExample/CycleSwiftExample/Scenes/CounterCycle.swift)
 ```swift
     public struct CounterCycle : Cycle {
    

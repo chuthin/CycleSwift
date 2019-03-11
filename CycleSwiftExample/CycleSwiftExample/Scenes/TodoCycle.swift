@@ -80,6 +80,7 @@ public struct TodoCycle:Cycle {
                  return reactiveTodo.controlEvent(ControlEvents.editingDidEnd)
                     .asDriver()
                     .withLatestFrom(text)
+                    .filter{!$0.isEmpty}
                     .map{Action.New($0) }
             }
             return Driver.never()
@@ -142,7 +143,7 @@ public struct TodoCycle:Cycle {
             .map{ state -> DomSink in
                 DomSink(VTView(id: "contentView", subviews: [
                     VTView(id: "top"),
-                    VTTextField(id: "todo", placeholder : "Add new Todo", text: ""),
+                    VTTextField(id: "todo", placeholder : "What need to be done?", text: ""),
                     VTTableView(id: "tableView",itemsSource:state.todos, cells: [.cellClass("TodoCell")]),
                     VTButton(id: "allButton", style:state.index == 0 ? "tabSelected" : "tab", title: "All (\(state.all.count))"),
                     VTButton(id: "activeButton", style:state.index == 1 ? "tabSelected" : "tab", title: "Active (\(state.actives.count))"),

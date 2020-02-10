@@ -77,7 +77,7 @@ public struct TodoCycle:Cycle {
         let todo = dom.flatMapLatest{ dom -> Driver<Action> in
             if let reactiveTodo = dom.select(UITextField.self, "todo") {
                  let text =  reactiveTodo.text.orEmpty.changed.asDriver()
-                 return reactiveTodo.controlEvent(ControlEvents.editingDidEnd)
+                return reactiveTodo.controlEvent(UIControl.Event.editingDidEnd)
                     .asDriver()
                     .withLatestFrom(text)
                     .filter{!$0.isEmpty}

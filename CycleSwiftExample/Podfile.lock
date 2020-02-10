@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CycleSwift (1.0.1):
+    - Alamofire
+    - RxCocoa
+    - RxSwift
+    - Stylist
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+  - KZFileWatchers (1.0.6)
+  - ObjectMapper (3.5.1)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - Stylist (0.3.0):
+    - KZFileWatchers (~> 1.0.6)
+    - Yams (~> 2.0.0)
+  - Yams (2.0.0)
+
+DEPENDENCIES:
+  - CycleSwift (from `../CycleSwift/`)
+  - Kingfisher
+  - ObjectMapper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - KZFileWatchers
+    - ObjectMapper
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - Stylist
+    - Yams
+
+EXTERNAL SOURCES:
+  CycleSwift:
+    :path: "../CycleSwift/"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CycleSwift: c7d4aef67ca65b6bef4123e80bb667f1d6a20c05
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  KZFileWatchers: 029e57c853bed7e6703786937135df5cb993fead
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  Stylist: 48a9d67a4e319b82b8a8efe682fd54875844c504
+  Yams: cb96472112d99e4b368f8dae9ab62e8a3eb8a3f9
+
+PODFILE CHECKSUM: 3a47b3a01bda9049f15993616426f6d36a15a5e9
+
+COCOAPODS: 1.8.4
